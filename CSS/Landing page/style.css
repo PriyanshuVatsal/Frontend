@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+.onelayout{
+    height: 500px;
+    background-image: url("hero-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+} 
+
+.logo p{
+    color: white;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.logo p:hover{
+    color:rgb(192, 107, 62);
+    cursor: pointer;
+}
+
+.logo span{
+    font-weight: bolder;
+    color: rgb(192, 107, 62);
+    
+}
+
+.link ul{
+    display: flex;
+    gap: 40px;
+}
+.link ul li{
+    list-style:none;
+}
+
+.link ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.link ul a:hover{
+    color: rgb(192, 107, 62);
+}
+
+section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+section h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+section p{
+    font-size: 16px0;
+    font-weight: 300;
+}
+
+section button{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+section button:hover{
+    background-color: rgb(192, 107, 62);
+    color: white;
+    cursor: pointer;
+}
+
+
+.fixedButton button{
+    background-color: rgb(82, 136, 243);
+    width: 11rem;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+
+.fixedButton button{
+    cursor: pointer;
+}
