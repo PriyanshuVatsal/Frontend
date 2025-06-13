@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.oterdiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    padding: 40px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);;
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.user-name, .e-mail, .form-password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#username, #email, #password{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.check{
+    margin-top: 20px;
+}
+
+.check span{
+    color: brown;
+}
+
+.Button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+}
